@@ -4,6 +4,9 @@ This repository contains example applications for demoing ArgoCD functionality. 
 to register this repository to your ArgoCD instance, or fork this repo and push your own commits
 to explore ArgoCD and GitOps!
 
+- agocd app list
+- argocd app create app-2 --repo https://github.com/mabusaa/argocd-example-apps.git --revision master --path guestbook --dest-server https://kubernetes.default.svc --dest-namespace app-2 --sync-option CreateNamespace=true
+- argocd app sync app-2
 
 https://github.com/mabusaa/argocd-course-apps-definitions
 
