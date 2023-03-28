@@ -4,6 +4,9 @@ This repository contains example applications for demoing ArgoCD functionality. 
 to register this repository to your ArgoCD instance, or fork this repo and push your own commits
 to explore ArgoCD and GitOps!
 
+
+https://github.com/mabusaa/argocd-course-apps-definitions
+
 - selfHeal: true --- repo: 2 replica. Using kubectl scale to 10, argocd -> 2
 - automated: {} -- auto sync
 - prune: true -- without it, delete svc in reop wont delete svc in kube. With it, delete in repo -> delete in kube
